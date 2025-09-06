@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(http://ems.nmamit.in/ven_pic/d.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    gap: 600px;
+}
+.logo img{
+    width: 100%;
+}
+.name{
+padding: 25px;
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    color: white;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+ 
+}
+.menu a:hover{
+    background-color:rgb(184, 183, 181);
+}
+
+.active{
+    font-weight: 400;
+    color: white;
+}
+
+.drop {
+    position: relative;
+}
+
+span {
+    display: none; 
+    position: absolute; 
+    background-color: white;
+    margin: 2px;
+    padding: 10px 35px;
+    align-items: center;
+    border-radius: 10px;
+}
+span a{
+    display: flex;
+    align-items: center;
+}
+.menu a {
+    color: black;
+}
+
+.drop:hover span {
+    display: block; 
+}
+.para{
+    justify-content: center;
+    border:90px;
+    padding:90px;
+    backdrop-filter:blur;
+}
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Social media icons */
+.social-icons {
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    color: #fff; /* White icons */
+    font-size: 24px; /* Icon size */
+    margin: 0 15px; /* Spacing between icons */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ccc; /* Light gray on hover */
+}
+
+/* Copyright text */
+.copyright {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .social-icons a {
+        font-size: 20px; /* Smaller icons on mobile */
+        margin: 0 10px;
+    }
+
+    .copyright {
+        font-size: 12px; /* Smaller text on mobile */
+    }
+}
